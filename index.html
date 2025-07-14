@@ -9,8 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --color-principal: #ffb3c6;
-            --color-secundario: #ff8fab;
+            --color-profesional: #ff8fab; /* Rosado Fuerte */
+            --color-disciplinar: #ffb3c6; /* Rosado Principal */
+            --color-general: #ffdce5;     /* Rosado Claro */
+            --color-texto-general: #8c5d6a;
+            
             --color-aprobado: #a9def9;
             --color-bloqueado-fondo: #f1f1f1;
             --color-bloqueado-texto: #cccccc;
@@ -23,7 +26,8 @@
         body {
             font-family: 'Nunito', sans-serif;
             background-color: var(--color-fondo);
-            background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAHBgsIBw8QEBAPEA8PDw8QDw8PDw8PFBEWFhYRFBQYHSggGBolGxUUITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFRAQFy0fFR4tLS0tLS0rLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAYUBlAMBEQACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDBv/EABoQAQEBAQEBAQAAAAAAAAAAAAABEQISITH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD24BQCgBQCgCoAKAIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgD/9wADAP/2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD54AAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIA--g');
+            background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAHBgsIBw8QEBAPEA8PDw8QDw8PDw8PFBEWFhYRFBQYHSggGBolGxUUITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFRAQFy0fFR4tLS0tLS0rLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAYUBlAMBEQACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDBv/EABoQAQEBAQEBAQAAAAAAAAAAAAABEQISITH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD24BQCgBQCgCoAKAIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgIAAKgoCAACoKAgAAqCgD/9wADAP/2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD54AAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAAIAAA-g');
+            background-size: cover;
             background-attachment: fixed;
             color: #333;
             padding: 20px;
@@ -39,7 +43,7 @@
             text-align: center;
             margin-bottom: 5px;
             text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.9);
-            background-color: rgba(255, 240, 243, 0.7);
+            background-color: rgba(255, 255, 255, 0.7);
             padding: 10px 20px;
             border-radius: 20px;
         }
@@ -49,7 +53,7 @@
             text-align: center;
             margin-bottom: 30px;
             font-weight: 400;
-            background-color: rgba(255, 240, 243, 0.6);
+            background-color: rgba(255, 255, 255, 0.6);
             padding: 5px 15px;
             border-radius: 15px;
         }
@@ -84,7 +88,6 @@
             margin-bottom: 5px;
         }
         .ramo {
-            background-color: var(--color-principal);
             color: var(--color-texto-ramo);
             padding: 14px 12px;
             border-radius: var(--radio-borde);
@@ -95,6 +98,12 @@
             font-weight: 700;
             border: 2px solid rgba(255, 255, 255, 0.9);
             box-shadow: 0 2px 4px rgba(206, 127, 155, 0.1);
+        }
+        .ramo.profesional { background-color: var(--color-profesional); }
+        .ramo.disciplinar { background-color: var(--color-disciplinar); }
+        .ramo.general { 
+            background-color: var(--color-general); 
+            color: var(--color-texto-general);
         }
         .ramo.bloqueado {
             background-color: var(--color-bloqueado-fondo);
@@ -111,10 +120,12 @@
             border-color: #cde6f9;
         }
         .ramo:not(.bloqueado):not(.aprobado):hover {
-            background-color: var(--color-secundario);
             transform: scale(1.05);
             box-shadow: var(--sombra);
         }
+        .ramo.profesional:not(.bloqueado):not(.aprobado):hover { background-color: #fa709a; }
+        .ramo.disciplinar:not(.bloqueado):not(.aprobado):hover { background-color: #ff9ab6; }
+        .ramo.general:not(.bloqueado):not(.aprobado):hover { background-color: #fbd0da; }
     </style>
 </head>
 <body>
@@ -126,172 +137,154 @@
         </div>
 
     <script>
-        // --- LÓGICA CON SEMESTRES BLOQUEADOS ---
-        const mallaData = [
-            { semestre: 1, ramos: [
-                { id: 'mat1', nombre: 'Introducción a las Matemáticas', prerequisitos: [] },
-                { id: 'fis1', nombre: 'Introducción a la Física', prerequisitos: [] },
-                { id: 'iminas', nombre: 'Introducción a la Ing. de Minas', prerequisitos: [] },
-                { id: 'fba', nombre: 'Formación Básica para la Vida Académica', prerequisitos: [] },
-                { id: 'ing1', nombre: 'Curso Sello I: Inglés I', prerequisitos: [] }
-            ]},
-            { semestre: 2, ramos: [
-                { id: 'alg1', nombre: 'Álgebra I', prerequisitos: ['mat1'] },
-                { id: 'cal1', nombre: 'Cálculo I', prerequisitos: ['mat1'] },
-                { id: 'mec', nombre: 'Mecánica', prerequisitos: ['fis1'] },
-                { id: 'fba2', nombre: 'Formación Básica II', prerequisitos: ['fba'] },
-                { id: 'ing2', nombre: 'Curso Sello II: Inglés II', prerequisitos: ['ing1'] }
-            ]},
-            { semestre: 3, ramos: [
-                { id: 'alg2', nombre: 'Álgebra II', prerequisitos: ['alg1'] },
-                { id: 'cal2', nombre: 'Cálculo II', prerequisitos: ['cal1'] },
-                { id: 'qgral', nombre: 'Química General', prerequisitos: ['mec'] },
-                { id: 'geo_gen', nombre: 'Geología General', prerequisitos: [] },
-                { id: 'tic', nombre: 'TIC para la Minería', prerequisitos: [] },
-                { id: 'csi3', nombre: 'Curso Sello Institucional III', prerequisitos: [] }
-            ]},
-            { semestre: 4, ramos: [
-                { id: 'edif', nombre: 'Ecuaciones Diferenciales', prerequisitos: ['cal2'] },
-                { id: 'cal3', nombre: 'Cálculo III', prerequisitos: ['cal2'] },
-                { id: 'elecmag', nombre: 'Electricidad y Magnetismo', prerequisitos: ['cal2', 'mec'] },
-                { id: 'metprod', nombre: 'Métodos de Producción Minera', prerequisitos: ['iminas'] },
-                { id: 'petmin', nombre: 'Petrografía y Mineralogía', prerequisitos: ['geo_gen'] },
-                { id: 'csi4', nombre: 'Curso Sello Institucional IV', prerequisitos: ['csi3'] }
-            ]},
-            { semestre: 5, ramos: [
-                { id: 'proest', nombre: 'Probabilidad y Estadística', prerequisitos: ['cal3'] },
-                { id: 'feco', nombre: 'Fundamentos de Economía', prerequisitos: [] },
-                { id: 'invop', nombre: 'Investigación Operativa', prerequisitos: ['alg2'] },
-                { id: 'termo', nombre: 'Termodinámica', prerequisitos: ['edif'] },
-                { id: 'metnum', nombre: 'Métodos Numéricos', prerequisitos: ['edif'] },
-                { id: 'topogeo', nombre: 'Topografía y Geomensura Minera', prerequisitos: ['geo_gen'] }
-            ]},
-            { semestre: 6, ramos: [
-                { id: 'geoest', nombre: 'Geoestadística', prerequisitos: ['proest'] },
-                { id: 'evalp', nombre: 'Evaluación de Proyectos', prerequisitos: ['feco'] },
-                { id: 'exgeo', nombre: 'Exploración y Geología Económica', prerequisitos: ['petmin'] },
-                { id: 'pertro', nombre: 'Perforación y Tronadura', prerequisitos: ['metprod'] },
-                { id: 'taller1', nombre: 'Taller Integrador I', prerequisitos: ['metprod'] },
-                { id: 'interd1', nombre: 'Interdisciplinar', prerequisitos: [] }
-            ]},
-            { semestre: 7, ramos: [
-                { id: 'evalyac', nombre: 'Evaluación Económica de Yacimientos', prerequisitos: ['geoest', 'evalp'] },
-                { id: 'mecanicaf', nombre: 'Mecánica de Fluidos', prerequisitos: ['termo'] },
-                { id: 'metalurgia', nombre: 'Fundamentos de Metalurgia', prerequisitos: ['qgral'] },
-                { id: 'cargotrans', nombre: 'Carguío y Transporte', prerequisitos: ['pertro'] },
-                { id: 'mecanicaroc', nombre: 'Mecánica de Rocas', prerequisitos: ['termo'] },
-                { id: 'interd2', nombre: 'Interdisciplinar A+S', prerequisitos: ['interd1'] },
-                { id: 'practop', nombre: 'Práctica Operacional', prerequisitos: [] }
-            ]},
-            { semestre: 8, ramos: [
-                { id: 'software', nombre: 'Software de Productividad Minera', prerequisitos: ['metnum'] },
-                { id: 'vent', nombre: 'Ventilación y Servicios Mina', prerequisitos: ['mecanicaf'] },
-                { id: 'procmin', nombre: 'Procesamiento de Minerales', prerequisitos: ['metalurgia'] },
-                { id: 'legis', nombre: 'Legislación Minera', prerequisitos: [] },
-                { id: 'seguridad', nombre: 'Seguridad y Medio Ambiente en Minería', prerequisitos: [] },
-                { id: 'taller2', nombre: 'Taller Integrador II', prerequisitos: ['taller1'] }
-            ]},
-            { semestre: 9, ramos: [
-                { id: 'titulo1', nombre: 'Proyecto de Título I', prerequisitos: ['taller2'] },
-                { id: 'gestionemp', nombre: 'Gestión de Empresas y Liderazgo', prerequisitos: [] },
-                { id: 'diseno_sub', nombre: 'Diseño y Planif. Mina Subterránea', prerequisitos: ['mecanicaroc', 'cargotrans'] },
-                { id: 'diseno_rajo', nombre: 'Diseño y Planif. Rajo Abierto', prerequisitos: ['mecanicaroc', 'cargotrans'] },
-                { id: 'excelencia', nombre: 'Excelencia Operacional', prerequisitos: [] }
-            ]},
-            { semestre: 10, ramos: [
-                { id: 'titulo2', nombre: 'Proyecto de Título II', prerequisitos: ['titulo1'] },
-                { id: 'gestiontec', nombre: 'Gestión de la Tecnología en Minería', prerequisitos: ['gestionemp'] },
-                { id: 'resp_social', nombre: 'Responsabilidad Social Empresarial', prerequisitos: [] },
-                { id: 'innova', nombre: 'Innovación y Emprendimiento', prerequisitos: [] },
-                { id: 'practicapro', nombre: 'Práctica Profesional', prerequisitos: ['practop'] }
-            ]}
-        ];
+    const mallaData = [
+        { semestre: 1, ramos: [
+            { id: 'mat1', nombre: 'Introducción a las Matemáticas', prerequisitos: [], area: 'disciplinar', emoji: '🔬' },
+            { id: 'fis1', nombre: 'Introducción a la Física', prerequisitos: [], area: 'disciplinar', emoji: '🔬' },
+            { id: 'iminas', nombre: 'Introducción a la Ing. de Minas', prerequisitos: [], area: 'profesional', emoji: '⛏️' },
+            { id: 'fba', nombre: 'Formación Básica para la Vida Académica', prerequisitos: [], area: 'general', emoji: '🎓' },
+            { id: 'ing1', nombre: 'Curso Sello I: Inglés I', prerequisitos: [], area: 'general', emoji: '🎓' }
+        ]},
+        { semestre: 2, ramos: [
+            { id: 'alg1', nombre: 'Álgebra I', prerequisitos: ['mat1'], area: 'disciplinar', emoji: '🔬' },
+            { id: 'cal1', nombre: 'Cálculo I', prerequisitos: ['mat1'], area: 'disciplinar', emoji: '🔬' },
+            { id: 'mec', nombre: 'Mecánica', prerequisitos: ['fis1'], area: 'disciplinar', emoji: '🔬' },
+            { id: 'fba2', nombre: 'Formación Básica II', prerequisitos: ['fba'], area: 'general', emoji: '🎓' },
+            { id: 'ing2', nombre: 'Curso Sello II: Inglés II', prerequisitos: ['ing1'], area: 'general', emoji: '🎓' }
+        ]},
+        { semestre: 3, ramos: [
+            { id: 'alg2', nombre: 'Álgebra II', prerequisitos: ['alg1'], area: 'disciplinar', emoji: '🔬' },
+            { id: 'cal2', nombre: 'Cálculo II', prerequisitos: ['cal1'], area: 'disciplinar', emoji: '🔬' },
+            { id: 'qgral', nombre: 'Química General', prerequisitos: [], area: 'disciplinar', emoji: '🔬' },
+            { id: 'geo_gen', nombre: 'Geología General', prerequisitos: [], area: 'profesional', emoji: '⛏️' },
+            { id: 'tic', nombre: 'TIC para la Minería', prerequisitos: [], area: 'profesional', emoji: '⛏️' },
+            { id: 'csi3', nombre: 'Curso Sello Institucional III', prerequisitos: [], area: 'general', emoji: '🎓' }
+        ]},
+        { semestre: 4, ramos: [
+            { id: 'edif', nombre: 'Ecuaciones Diferenciales', prerequisitos: ['cal2'], area: 'disciplinar', emoji: '🔬' },
+            { id: 'cal3', nombre: 'Cálculo III', prerequisitos: ['cal2'], area: 'disciplinar', emoji: '🔬' },
+            { id: 'elecmag', nombre: 'Electricidad y Magnetismo', prerequisitos: ['cal2', 'mec'], area: 'disciplinar', emoji: '🔬' },
+            { id: 'metprod', nombre: 'Métodos de Producción Minera', prerequisitos: ['iminas'], area: 'profesional', emoji: '⛏️' },
+            { id: 'petmin', nombre: 'Petrografía y Mineralogía', prerequisitos: ['geo_gen'], area: 'profesional', emoji: '⛏️' },
+            { id: 'csi4', nombre: 'Curso Sello Institucional IV', prerequisitos: ['csi3'], area: 'general', emoji: '🎓' }
+        ]},
+        { semestre: 5, ramos: [
+            { id: 'proest', nombre: 'Probabilidad y Estadística', prerequisitos: ['cal3'], area: 'disciplinar', emoji: '🔬' },
+            { id: 'feco', nombre: 'Fundamentos de Economía', prerequisitos: [], area: 'profesional', emoji: '⛏️' },
+            { id: 'invop', nombre: 'Investigación Operativa', prerequisitos: ['alg2'], area: 'profesional', emoji: '⛏️' },
+            { id: 'termo', nombre: 'Termodinámica', prerequisitos: ['qgral'], area: 'profesional', emoji: '⛏️' },
+            { id: 'metnum', nombre: 'Métodos Numéricos', prerequisitos: ['edif'], area: 'profesional', emoji: '⛏️' },
+            { id: 'topogeo', nombre: 'Topografía y Geomensura Minera', prerequisitos: [], area: 'profesional', emoji: '⛏️' }
+        ]},
+        { semestre: 6, ramos: [
+            { id: 'geoest', nombre: 'Geoestadística', prerequisitos: ['proest'], area: 'disciplinar', emoji: '🔬' },
+            { id: 'evalp', nombre: 'Evaluación de Proyectos', prerequisitos: ['feco'], area: 'profesional', emoji: '⛏️' },
+            { id: 'exgeo', nombre: 'Exploración y Geología Económica', prerequisitos: ['petmin'], area: 'profesional', emoji: '⛏️' },
+            { id: 'pertro', nombre: 'Perforación y Tronadura', prerequisitos: ['metprod'], area: 'profesional', emoji: '⛏️' },
+            { id: 'taller1', nombre: 'Taller Integrador I', prerequisitos: [], area: 'profesional', emoji: '⛏️' },
+            { id: 'interd1', nombre: 'Interdisciplinar', prerequisitos: [], area: 'general', emoji: '🎓' }
+        ]},
+        { semestre: 7, ramos: [
+            { id: 'evalyac', nombre: 'Evaluación Económica de Yacimientos', prerequisitos: ['evalp', 'exgeo'], area: 'profesional', emoji: '⛏️' },
+            { id: 'mecanicaf', nombre: 'Mecánica de Fluidos', prerequisitos: ['termo'], area: 'profesional', emoji: '⛏️' },
+            { id: 'metalurgia', nombre: 'Fundamentos de Metalurgia', prerequisitos: ['qgral'], area: 'profesional', emoji: '⛏️' },
+            { id: 'cargotrans', nombre: 'Carguío y Transporte', prerequisitos: ['pertro'], area: 'profesional', emoji: '⛏️' },
+            { id: 'mecanicaroc', nombre: 'Mecánica de Rocas', prerequisitos: ['mec'], area: 'profesional', emoji: '⛏️' },
+            { id: 'interd2', nombre: 'Interdisciplinar A+S', prerequisitos: ['interd1'], area: 'general', emoji: '🎓' },
+            { id: 'practop', nombre: 'Práctica Operacional', prerequisitos: [], area: 'profesional', emoji: '⛏️' }
+        ]},
+        { semestre: 8, ramos: [
+            { id: 'software', nombre: 'Software de Productividad Minera', prerequisitos: ['metnum'], area: 'profesional', emoji: '⛏️' },
+            { id: 'vent', nombre: 'Ventilación y Servicios Mina', prerequisitos: ['mecanicaf'], area: 'profesional', emoji: '⛏️' },
+            { id: 'procmin', nombre: 'Procesamiento de Minerales', prerequisitos: ['metalurgia'], area: 'profesional', emoji: '⛏️' },
+            { id: 'legis', nombre: 'Legislación Minera', prerequisitos: [], area: 'profesional', emoji: '⛏️' },
+            { id: 'seguridad', nombre: 'Seguridad y Medio Ambiente en Minería', prerequisitos: [], area: 'profesional', emoji: '⛏️' },
+            { id: 'taller2', nombre: 'Taller Integrador II', prerequisitos: ['taller1'], area: 'profesional', emoji: '⛏️' }
+        ]},
+        { semestre: 9, ramos: [
+            { id: 'titulo1', nombre: 'Proyecto de Título I', prerequisitos: ['taller2'], area: 'profesional', emoji: '⛏️' },
+            { id: 'gestionemp', nombre: 'Gestión de Empresas y Liderazgo', prerequisitos: [], area: 'profesional', emoji: '⛏️' },
+            { id: 'diseno_sub', nombre: 'Diseño y Planif. Mina Subterránea', prerequisitos: ['cargotrans', 'mecanicaroc'], area: 'profesional', emoji: '⛏️' },
+            { id: 'diseno_rajo', nombre: 'Diseño y Planif. Rajo Abierto', prerequisitos: ['cargotrans', 'mecanicaroc'], area: 'profesional', emoji: '⛏️' },
+            { id: 'excelencia', nombre: 'Excelencia Operacional', prerequisitos: [], area: 'profesional', emoji: '⛏️' }
+        ]},
+        { semestre: 10, ramos: [
+            { id: 'titulo2', nombre: 'Proyecto de Título II', prerequisitos: ['titulo1'], area: 'profesional', emoji: '⛏️' },
+            { id: 'gestiontec', nombre: 'Gestión de la Tecnología en Minería', prerequisitos: ['gestionemp'], area: 'profesional', emoji: '⛏️' },
+            { id: 'resp_social', nombre: 'Responsabilidad Social Empresarial', prerequisitos: [], area: 'general', emoji: '🎓' },
+            { id: 'innova', nombre: 'Innovación y Emprendimiento', prerequisitos: [], area: 'general', emoji: '🎓' },
+            { id: 'practicapro', nombre: 'Práctica Profesional', prerequisitos: ['practop'], area: 'profesional', emoji: '⛏️' }
+        ]}
+    ];
 
-        const mallaContainer = document.getElementById('malla-container');
-        let ramosAprobados = new Set(JSON.parse(localStorage.getItem('ramosAprobadosIngMinasSanrio')) || []);
+    const mallaContainer = document.getElementById('malla-container');
+    let ramosAprobados = new Set(JSON.parse(localStorage.getItem('ramosAprobadosIngMinasSanrio')) || []);
 
-        function renderMalla() {
-            mallaContainer.innerHTML = '';
+    function renderMalla() {
+        mallaContainer.innerHTML = '';
+        
+        mallaData.forEach(semestreData => {
+            const semestreDiv = document.createElement('div');
+            semestreDiv.className = 'semestre';
+            semestreDiv.id = `sem${semestreData.semestre}`;
             
-            mallaData.forEach(semestreData => {
-                const semestreDiv = document.createElement('div');
-                semestreDiv.className = 'semestre';
-                semestreDiv.id = `sem${semestreData.semestre}`;
+            const tituloDiv = document.createElement('div');
+            tituloDiv.className = 'semestre-titulo';
+            tituloDiv.textContent = `🎀 Semestre ${semestreData.semestre} 🎀`;
+            semestreDiv.appendChild(tituloDiv);
+
+            semestreData.ramos.forEach(ramo => {
+                const ramoDiv = document.createElement('div');
+                ramoDiv.className = 'ramo';
+                ramoDiv.classList.add(ramo.area); // <--- AÑADE LA CLASE DEL ÁREA
+                ramoDiv.dataset.id = ramo.id;
+                ramoDiv.textContent = `${ramo.emoji} ${ramo.nombre}`; // <--- AÑADE EL EMOJI
                 
-                const tituloDiv = document.createElement('div');
-                tituloDiv.className = 'semestre-titulo';
-                tituloDiv.textContent = `🎀 Semestre ${semestreData.semestre} 🎀`;
-                semestreDiv.appendChild(tituloDiv);
+                // Lógica de prerrequisitos (la que desbloquea ramo por ramo)
+                const prerrequisitosCumplidos = ramo.prerequisitos.every(pr => ramosAprobados.has(pr));
 
-                semestreData.ramos.forEach(ramo => {
-                    const ramoDiv = document.createElement('div');
-                    ramoDiv.className = 'ramo';
-                    ramoDiv.dataset.id = ramo.id;
-                    ramoDiv.textContent = ramo.nombre;
-                    
-                    // --- INICIO DE LA LÓGICA CORREGIDA ---
-                    
-                    // 1. Revisa los prerrequisitos específicos del ramo (como antes)
-                    const prerequisitosEspecificosCumplidos = ramo.prerequisitos.every(pr => ramosAprobados.has(pr));
-
-                    // 2. NUEVA REGLA: Revisa si el semestre ANTERIOR está 100% aprobado
-                    let semestreAnteriorCompleto = true; // Es verdadero para el semestre 1
-                    if (semestreData.semestre > 1) {
-                        const ramosSemestreAnterior = mallaData
-                            .find(s => s.semestre === semestreData.semestre - 1)
-                            .ramos.map(r => r.id);
-                        
-                        semestreAnteriorCompleto = ramosSemestreAnterior.every(id => ramosAprobados.has(id));
-                    }
-                    
-                    // El ramo se puede tomar solo si AMBAS condiciones son verdaderas
-                    const puedeTomarRamo = prerequisitosEspecificosCumplidos && semestreAnteriorCompleto;
-                    
-                    // --- FIN DE LA LÓGICA CORREGIDA ---
-
-                    if (ramosAprobados.has(ramo.id)) {
-                        ramoDiv.classList.add('aprobado');
-                    } else if (!puedeTomarRamo) {
-                        ramoDiv.classList.add('bloqueado');
-                    }
-
-                    ramoDiv.addEventListener('click', () => toggleRamo(ramo, puedeTomarRamo));
-                    semestreDiv.appendChild(ramoDiv);
-                });
-                
-                mallaContainer.appendChild(semestreDiv);
-            });
-        }
-
-        function toggleRamo(ramo, puedeTomarRamo) {
-            if (ramosAprobados.has(ramo.id)) {
-                ramosAprobados.delete(ramo.id);
-                // Lógica para des-aprobar ramos futuros si se quita un prerrequisito
-                const aDesaprobarRecursivo = new Set([ramo.id]);
-                let cambio = true;
-                while(cambio) {
-                    cambio = false;
-                    mallaData.flat().flatMap(s => s.ramos).forEach(r => {
-                        if (ramosAprobados.has(r.id) && r.prerequisitos.some(p => aDesaprobarRecursivo.has(p))) {
-                            ramosAprobados.delete(r.id);
-                            aDesaprobarRecursivo.add(r.id);
-                            cambio = true;
-                        }
-                    });
+                if (ramosAprobados.has(ramo.id)) {
+                    ramoDiv.classList.add('aprobado');
+                } else if (!prerrequisitosCumplidos) {
+                    ramoDiv.classList.add('bloqueado');
                 }
 
-            } else if (puedeTomarRamo) {
-                ramosAprobados.add(ramo.id);
-            } else {
-                alert('¡Espera! ૮₍ ´ ꒳ `₎ა ♥ Debes aprobar todos los ramos del semestre anterior primero.');
-                return;
+                ramoDiv.addEventListener('click', () => toggleRamo(ramo, prerrequisitosCumplidos));
+                semestreDiv.appendChild(ramoDiv);
+            });
+            
+            mallaContainer.appendChild(semestreDiv);
+        });
+    }
+
+    function toggleRamo(ramo, prerrequisitosCumplidos) {
+        if (ramosAprobados.has(ramo.id)) {
+            ramosAprobados.delete(ramo.id);
+            const aDesaprobarRecursivo = new Set([ramo.id]);
+            let cambio = true;
+            while(cambio) {
+                cambio = false;
+                mallaData.flat().flatMap(s => s.ramos).forEach(r => {
+                    if (ramosAprobados.has(r.id) && r.prerequisitos.some(p => aDesaprobarRecursivo.has(p))) {
+                        ramosAprobados.delete(r.id);
+                        aDesaprobarRecursivo.add(r.id);
+                        cambio = true;
+                    }
+                });
             }
 
-            localStorage.setItem('ramosAprobadosIngMinasSanrio', JSON.stringify([...ramosAprobados]));
-            renderMalla();
+        } else if (prerrequisitosCumplidos) {
+            ramosAprobados.add(ramo.id);
+        } else {
+            alert('¡Espera! ૮₍ ´ ꒳ `₎ა ♥ Debes aprobar los prerrequisitos primero.');
+            return;
         }
 
+        localStorage.setItem('ramosAprobadosIngMinasSanrio', JSON.stringify([...ramosAprobados]));
         renderMalla();
+    }
+
+    renderMalla();
     </script>
 </body>
 </html>
